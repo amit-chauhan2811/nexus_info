@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><box-icon name='search-alt-2'></box-icon></button>
+        </form>
+    </header>
+    
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2><box-icon type='logo' name='firebase'></box-icon> Love-Bite <br> Restaurant & Rooms</h2>
+            <div class="text-sci">
+                <h2>Welcome!<br><span>to our new restaurant.</span></h2>
+                <p>Here, we serve you good & healthy food with more love, making it taste like home. </p>
+                <p>We also have OYO rooms available. AC/Non-AC.</p>
+                <div class="social-icon">
+                    <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='twitter'></box-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input-box">
+                        <span class="icon"><box-icon name='envelope' type='solid'></box-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forget password</a>
+                    </div>
+                    <button type="submit" class="btn">Log In</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Sign Up</h2>
+                    <div class="input-box">
+                        <span class="icon"><box-icon type='solid' name='user'></box-icon></span>
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><box-icon name='envelope' type='solid'></box-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Sign In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
